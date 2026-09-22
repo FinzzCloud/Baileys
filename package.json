@@ -10,6 +10,7 @@
     "baileys",
     "wabot",
     "proto",
+    "finzzcloud",
     "whatsapp-websocket"
   ],
   "homepage": "https://github.com/FinzzCloud/Baileys",
@@ -50,7 +51,7 @@
     "@skycodee/libsignal": "*",
     "moment-timezone": "*",
     "music-metadata": "*",
-    "cache-manager": "*",
+    "cache-manager": "^5.7.6",
     "async-mutex": "*",
     "@hapi/boom": "*",
     "pbjs": "^0.0.14",
@@ -65,13 +66,14 @@
     "pino": "*",
     "ws": "*",
     "fs": "*",
-    "os": "*"
+    "os": "*",
+    "link-preview-js": "*",
+    "long": "^5.2.3",
+    "jimp": "^0.22.12"
   },
   "devDependencies": {
     "conventional-changelog-cli": "*",
-    "link-preview-js": "*",
     "protobufjs-cli": "*",
-    "cache-manager": "*",
     "@types/jest": "*",
     "@types/node": "*",
     "release-it": "*",
